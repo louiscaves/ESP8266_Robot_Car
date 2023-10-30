@@ -1,2 +1,2 @@
 # ESP8266_Robot_Car
-Remote Controlled Robotic Vehicle powered by ESP8266 microcontrollers
+This project is powered by two ESP8266 Wi-Fi-enabled microcontrollers to wirelessly send and receive information in order to create a remote-controlled vehicle. The controller sets up a WiFi access point which the vehicle connects to as a client. The controller is used to read the position of two potentiometers as analog inputs, which are sent directly to the vehicle. Upon receiving this information, the vehicle transforms this information into appropriate speed and direction parameters, which are sent to the two separate motors that power each wheel, respectively.
